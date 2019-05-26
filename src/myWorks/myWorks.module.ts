@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router'
 import { myWorksRoutes } from './myWorks.route'
 
 import { MyWorksComponent } from './myWorks.component';
+import { WorksNavbarComponent } from '../nav/worksnavbar.component';
 import { ToDoReactComponent } from '../toDoReact/toDoReact.component';
 import  { ToDoVueComponent } from '../toDoVue/toDoVue.component'
 
@@ -15,6 +16,7 @@ import  { ToDoVueComponent } from '../toDoVue/toDoVue.component'
    ],
    declarations: [
       MyWorksComponent,
+      WorksNavbarComponent,
       ToDoReactComponent,
       ToDoVueComponent
    ],

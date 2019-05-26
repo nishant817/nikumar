@@ -8,9 +8,11 @@ import { MyWorksComponent } from '../myWorks/myWorks.component';
 const routes: Routes = [
   //{ path: '', component: AppComponent, resolve: {},  canActivate: [], canDeactivate: [] },,
   //{ path: 'myworks', component: MyWorksComponent },
-  { path: 'aboutme', component: AboutMeComponent },
   { path: '', redirectTo: '/aboutMe', pathMatch: 'full' },
-  { path: 'myworks', loadChildren: '../myWorks/myWorks.module#MyWorksModule' },
+  { path: 'aboutme', component: AboutMeComponent },
+  // { path: 'myworks', loadChildren: '../myWorks/myWorks.module#MyWorksModule' },
+  { 
+    path: 'myworks', loadChildren: '../myWorks/myWorks.module#MyWorksModule' },
 ];
 
 @NgModule({

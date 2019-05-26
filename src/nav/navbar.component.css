@@ -1,0 +1,32 @@
+header {
+   background-color: #999;
+   width: 1184px;
+   margin: 0 auto;
+ }
+ ul {
+   /* padding: 3px; */
+   /* display: flex; */
+ }
+ .nav-item {
+   display: inline-block;
+   font-size: 22px;
+   border-right: 1px solid #bbb;
+ }
+ .logo {
+   vertical-align: middle;
+   height: 30px;
+ }
+ .nav-link {
+   /* padding: 5px 10px; */
+   text-decoration: none;
+   color: inherit;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+ }
+ .active-link {
+   background-color: aquamarine;
+ }
+ .navbar-brand {
+    font-size: 30px;
+    color: white;
+ }

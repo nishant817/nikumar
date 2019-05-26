@@ -1,0 +1,23 @@
+.container {
+   display: flex;
+   margin: 10px auto 0 auto;
+   justify-content: center;
+ }
+ 
+ .aside {
+   padding: 30px;
+   /* background-color: gray; */
+   /* width: auto; */
+   min-height: 300px;
+ }
+ 
+ .work-details {
+   /* margin: 0 auto; */
+   padding: 30px;
+   background-color: white;
+   /* width: 1024px; */
+   width: 964px;
+   min-height: 600px;
+ }
+ 
+ 
